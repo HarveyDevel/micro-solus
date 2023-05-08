@@ -8,7 +8,7 @@ rules:
     - identifier: "\\b^(build|builddeps|check|component|description|environment|homepage|install|license|name|patterns|profile|release|replaces|rundeps|setup|source|summary|version)\\b"
     
     # build flags
-    - identifier.options: "^(autodep|ccache|clang|devel|emul32|extract|libsplit|networking|optimize)"
+    - identifier.options: "^(autodep|ccache|clang|devel|emul32|extract|libsplit|networking|optimize|strip)"
    
    # package source
     - identifier.source:
@@ -47,4 +47,3 @@ rules:
         start: "#"
         end: "$"
         rules: []
-

@@ -26,11 +26,15 @@ or
 
 `wget -P ~/.config/micro/colorschemes https://raw.githubusercontent.com/Girtablulu/micro-solus/master/solus.micro`
 
-to use the colorscheme you have to add inside `~/config/micro/settings.json`
+to use the colorscheme and force `tabtospaces` when editing .yml's you have to change `~/config/micro/settings.json` to the following:
 
 ```
 {
+    "*.yml": {
+        "tabstospaces": true
+    },
     "colorscheme": "solus"
 }
+
 ```
 
