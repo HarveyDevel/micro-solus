@@ -14,7 +14,7 @@ for syntax highlighting place the package.yaml in
 
 or
 
-`wget -P ~/.config/micro/syntax https://raw.githubusercontent.com/Girtablulu/micro-solus/master/package.yaml`
+`wget -P ~/.config/micro/syntax https://raw.githubusercontent.com/HarveyDevel/micro-solus/master/package.yaml`
 
 ## Colorscheme
 
@@ -24,7 +24,7 @@ for colorscheme support place the solus.micro in
 
 or
 
-`wget -P ~/.config/micro/colorschemes https://raw.githubusercontent.com/Girtablulu/micro-solus/master/solus.micro`
+`wget -P ~/.config/micro/colorschemes https://raw.githubusercontent.com/HarveyDevel/micro-solus/master/solus.micro`
 
 to use the colorscheme and force `tabtospaces` when editing .yml's you have to change `~/config/micro/settings.json` to the following:
 
