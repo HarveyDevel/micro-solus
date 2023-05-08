@@ -1,3 +1,5 @@
+Fork of [Girtablulu's micro-solus](https://github.com/Girtablulu/micro-solus)
+
 Syntax highlighting and colorscheme for [Micro Editor](https://github.com/zyedidia/micro)
 - The syntax is made to work with the [package.yml](https://getsol.us/articles/packaging/package.yml/en/) for Solus which is used for build instructions.
 - the colorscheme is based on the [default colorscheme](https://github.com/zyedidia/micro/blob/master/runtime/colorschemes/default.micro) of micro with changes to work fully with the package.yaml syntax.
