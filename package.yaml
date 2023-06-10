@@ -40,7 +40,7 @@ rules:
     - statement.actions: "[$]pkgfiles"
 
     # install prefixes
-    - statement.prefix: "(%kernel_version_lts%|%libdir%|[$]workdir|[$]PREFIX|%installroot%|[$]{EMUL32BUILD}|[$]EMUL32BUILD|[$]version|[$]{version}|[$]release|[$]{release}|[$]sources|[$]installdir)"
+    - statement.prefix: "(%kernel_version_lts%|%libdir%|[$]workdir|[$]{workdir}|[$]PREFIX|%installroot%|[$]EMUL32BUILD|[$]{EMUL32BUILD}|[$]version|[$]{version}|[$]release|[$]{release}|[$]sources|[$]{sources}|[$]installdir|[$]{installdir})"
 
     # Comments
     - comment:
