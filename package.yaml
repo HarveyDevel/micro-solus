@@ -25,6 +25,7 @@ rules:
 
     # Build Macros
     - statement.actions: "[%](configure|reconfigure|autogen)"
+    - statement.actions: "[%](configure_no_runstatedir)"
     - statement.actions: "[%](make_install|make|cmake)"
     - statement.actions: "[%](make[[:space:]]check)"
     - statement.actions: "[%](cmake_ninja|ninja_build|ninja_install|ninja_check)"
