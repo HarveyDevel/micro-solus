@@ -1,4 +1,5 @@
 filtetype: package.yml
+filetype: "yaml"
 
 detect:
     filename: "package.yml"
