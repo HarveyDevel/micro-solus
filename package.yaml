@@ -35,6 +35,7 @@ rules:
     - statement.actions: "[%](cabal_configure|cabal_build|cabal_install|cabal_register)"
     - statement.actions: "[%](perl_setup|perl_build|perl_install)"
     - statement.actions: "[%](python_setup|python_install|python_test|python_compile|python3_setup|python3_install|python3_test|python3_compile)"
+    - statement.actions: "[%](install_license)"
     - statement.actions: "[%](gem_build|gem_install)"
     - statement.actions: "[%](waf_configure|waf_build|waf_install)"
     - statement.actions: "[%](cargo_fetch|cargo_build|cargo_install|cargo_test)"
