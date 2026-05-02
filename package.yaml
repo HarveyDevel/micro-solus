@@ -5,7 +5,7 @@ detect:
 
 rules:
     # Keys
-    - identifier: "\\b^(build|builddeps|check|component|description|environment|homepage|install|license|name|patterns|profile|release|replaces|rundeps|setup|source|summary|version)\\b"
+    - identifier: "\\b^(build|builddeps|checkdeps|check|component|description|environment|homepage|install|license|name|patterns|profile|release|replaces|rundeps|setup|source|summary|version)\\b"
     
     # build flags
     - identifier.options: "^(autodep|ccache|clang|devel|emul32|extract|libsplit|networking|optimize|strip)"
@@ -28,7 +28,7 @@ rules:
     - statement.actions: "[%](configure_no_runstatedir)"
     - statement.actions: "[%](make_install|make|cmake)"
     - statement.actions: "[%](make[[:space:]]check)"
-    - statement.actions: "[%](cmake_ninja|ninja_build|ninja_install|ninja_check)"
+    - statement.actions: "[%](cmake_kf6|cmake_ninja|ninja_build|ninja_install|ninja_check)"
     - statement.actions: "[%](meson_configure|meson_build|meson_install|meson_check)"
     - statement.actions: "[%](qmake4|qmake|qml_cache|qml6_cache)"
     - statement.actions: "[%](patch|apply_patches)"
