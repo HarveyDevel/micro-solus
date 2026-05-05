@@ -33,7 +33,7 @@ rules:
     - statement.actions: "[%](qmake4|qmake|qml_cache|qml6_cache)"
     - statement.actions: "[%](patch|apply_patches)"
     - statement.actions: "[%](cabal_configure|cabal_build|cabal_install|cabal_register)"
-    - statement.actions: "[%](haskell_configure|haskell_build|haskell_install|haskell_register|haskell_check|)"
+    - statement.actions: "[%](haskell_configure|haskell_build|haskell_install|haskell_register|haskell_check)"
     - statement.actions: "[%](perl_setup|perl_build|perl_install)"
     - statement.actions: "[%](python_setup|python_install|python_test|python_compile|python3_setup|python3_install|python3_test|python3_compile)"
     - statement.actions: "[%](install_license)"
@@ -43,7 +43,7 @@ rules:
     - statement.actions: "[%](symlink_check)"
     - statement.actions: "[%](bolt_instr|bolt_merge|bolt_opt)"
     - statement.actions: "[%](llvm_profile_merge|avx2_lib_shift)"
-    - statement.actions: "[$]pkgfiles"
+    - statement.actions: "[$]pkgfiles|{pkgfiles}"
 
     # install prefixes
     - statement.prefix: "(%CONFOPTS%|%kernel_version_lts%|%kernel_version_current%|%libdir%|[$]workdir|[$]{workdir}|[$]PREFIX|%installroot%|[$]EMUL32BUILD|[$]{EMUL32BUILD}|[$]version|[$]{version}|[$]release|[$]{release}|[$]sources|[$]{sources}|[$]installdir|[$]{installdir})"
