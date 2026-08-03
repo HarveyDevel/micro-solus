@@ -36,6 +36,8 @@ rules:
     - statement.actions: "[%](haskell_configure|haskell_build|haskell_install|haskell_register|haskell_check)"
     - statement.actions: "[%](perl_setup|perl_build|perl_install)"
     - statement.actions: "[%](python_setup|python_install|python_test|python_compile|python3_setup|python3_install|python3_test|python3_compile)"
+    - statement.actions: "[%](python3_avx2_lib_shift|python3_version|python3_sitepackages)"
+    - statement.actions: "[%](pyproject_build|pyproject_install|pytest|python3_pytest)"
     - statement.actions: "[%](install_license)"
     - statement.actions: "[%](gem_build|gem_install)"
     - statement.actions: "[%](waf_configure|waf_build|waf_install)"
