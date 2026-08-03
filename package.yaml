@@ -45,6 +45,8 @@ rules:
     - statement.actions: "[%](symlink_check)"
     - statement.actions: "[%](bolt_instr|bolt_merge|bolt_opt)"
     - statement.actions: "[%](llvm_profile_merge|avx2_lib_shift)"
+    - statement.actions: "[%](install_bin|install_dir|install_exe|install_file)"
+    - statement.actions: "[%](tmpfiles|sysusers)"
     - statement.actions: "[$]pkgfiles|{pkgfiles}"
 
     # install prefixes
